@@ -1,0 +1,75 @@
+.entertainment-division{
+    display: grid;
+    grid-template-columns: 10% 90%;
+    column-gap: 80px;
+    color: white;
+    background-color: black ;
+    padding-top: 20px;
+
+}
+
+.side-search{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+
+}
+.side-search button{
+    font-size: 16px;
+}
+.side-search button:hover{
+    background-color: rgb(31, 161, 151);
+}
+
+.entertain-card{
+    height: 350px;
+    width: 300px;
+    border: solid white;
+    border-width: 1px 1px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.page-hr{
+    background-color: rgb(156, 153, 153);
+    height: 1px;
+}
+
+.card-icon-detail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.like{
+    width: 70%;
+    height: 70%;
+}
+
+.icon-det-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.follow-icon {
+    display: flex;
+    flex-direction: row;
+    row-gap: 5px;
+}
+
+.entertainment-banner img{
+    height: 98%;
+    width: 98%;
+}

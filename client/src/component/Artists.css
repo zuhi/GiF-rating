@@ -1,0 +1,31 @@
+.artistBanner{
+
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+
+}
+
+.column-section{
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+
+}
+
+.artist-banner{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.artist-subheading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.artist-column{
+    display: flex;
+    flex-direction: row;
+}

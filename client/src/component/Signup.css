@@ -1,0 +1,38 @@
+.Signup-form div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    row-gap: 20px;
+}
+
+
+.signup-input{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup-input input{
+    height: 20px;
+    width: 50%;
+}
+.signup-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.signup-button button{
+    padding: 5px;
+}
+
+.signup-button button:hover{
+    background-color: rgb(31, 161, 151);
+
+}

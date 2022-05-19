@@ -1,0 +1,60 @@
+button {
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.trend {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.trending-display-card {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.display-card{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+
+}
+
+.column-section{
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+
+}
+
+.side-tags{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.side-tags button{
+    font-size: 16px;
+}
+
+.side-tags button:hover{
+    background-color: rgb(31, 161, 151);
+}
+
+.trend-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.column-section iframe {
+
+    width: 100%;
+    cursor: not-allowed;
+}
+
+.trend-banner{
+    display: flex;
+    flex-direction: row;
+}
